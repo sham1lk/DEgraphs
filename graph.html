@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="graph.css" type="text/css"/>
+      <title>Euler’s method</title>
+   </head>
+   <body>
+      <div class="input first">
+         <p><b>x<sub>0</sub>:</b><br>
+            <input type="text" id="txt1" class="form-control" aria-describedby="basic-addon1" value="1">
+         </p>
+      </div>
+      <div class="input">
+         <p><b>y<sub>0</sub>:</b><br>
+            <input type="text" id="txt2" class="form-control" aria-describedby="basic-addon1" value="0">
+         </p>
+         <p><b>X:</b><br>
+            <input type="text" id="txt3" class="form-control" aria-describedby="basic-addon1" value="7">
+         </p>
+         <p><b>N:</b><br>
+            <input type="text" id="txt4" class="form-control" aria-describedby="basic-addon1" value="0.1">
+         </p>
+      </div>
+      
+
+
+        <div class="container1 body">
+  <ul class="ks-cboxtags">
+    <li><input type="checkbox" id="checkboxOne" value="Rainbow Dash"><label for="checkboxOne">Euler</label></li>
+    <li><input type="checkbox" id="checkboxTwo" value="Cotton Candy"><label for="checkboxTwo">I. Euler</label></li>
+    <li><input type="checkbox" id="checkboxThree" value="Rarity"><label for="checkboxThree">Lev pidor</label></li>
+  </ul>
+
+</div>
+
+
+
+
+      </div>
+      <div class="input">
+         <button type="button" id="renderBtn" class="btn btn-primary">
+            Render
+         </button>
+      </div>
+      <div id="mcontainer" class="container">
+         <canvas id="myChart"></canvas>
+      </div>
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="./myChart.js"></script>
+</html>
