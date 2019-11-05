@@ -23,7 +23,10 @@
             <input type="text" id="txt3" class="form-control" aria-describedby="basic-addon1" value="7">
          </p>
          <p><b>N:</b><br>
-            <input type="text" id="txt4" class="form-control" aria-describedby="basic-addon1" value="0.1">
+            <input type="text" id="txt4" class="form-control" aria-describedby="basic-addon1" value="100">
+         </p>
+         <p><b>N<sub>0</sub>:</b><br>
+            <input type="text" id="txt5" class="form-control" aria-describedby="basic-addon1" value="14">
          </p>
       </div>
       
@@ -31,9 +34,9 @@
 
         <div class="container1 body">
   <ul class="ks-cboxtags">
-    <li><input type="checkbox" id="checkboxOne" value="Rainbow Dash"><label for="checkboxOne">Euler</label></li>
-    <li><input type="checkbox" id="checkboxTwo" value="Cotton Candy"><label for="checkboxTwo">I. Euler</label></li>
-    <li><input type="checkbox" id="checkboxThree" value="Rarity"><label for="checkboxThree">Lev pidor</label></li>
+    <li><input type="checkbox" id="checkboxOne"><label for="checkboxOne">Euler</label></li>
+    <li><input type="checkbox" id="checkboxTwo" ><label for="checkboxTwo">I. Euler</label></li>
+    <li><input type="checkbox" id="checkboxThree"> <label for="checkboxThree">Runge-Kutta</label></li>
   </ul>
 
 </div>
@@ -43,12 +46,15 @@
 
       </div>
       <div class="input">
-         <button type="button" id="renderBtn" class="btn btn-primary">
+         <button type="button" id="renderBtn" class="btn btn-primary button">
             Render
          </button>
       </div>
       <div id="mcontainer" class="container">
          <canvas id="myChart"></canvas>
+      </div>
+      <div id="mcontainer1" class="container2">
+         <canvas id="myChart1"></canvas>
       </div>
    </body>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
