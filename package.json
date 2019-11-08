@@ -1,0 +1,25 @@
+{
+  "name": "de",
+  "version": "1.0.0",
+  "description": "de",
+  "main": "myChart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sham1lk/DEgraphs.git"
+  },
+  "author": "Shamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sham1lk/DEgraphs/issues"
+  },
+  "homepage": "https://github.com/sham1lk/DEgraphs#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
