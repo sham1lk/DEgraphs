@@ -4,11 +4,8 @@ import Exact_method from "../Model/Exact_method.js"
 import I_E_method from "../Model/Imp_Euler_method.js"
 import MyChart from "../View/Chart.js"
 
+
 "use strict";
-
-
-
-
 $("#renderBtn").click(
 
     function() {
