@@ -1,8 +1,8 @@
-import RK_method from "./RK_method.js"
-import E_method from "./Euler_method.js"
-import Exact_method from "./Exact_method.js"
-import I_E_method from "./Imp_Euler_method.js"
-import MyChart from "./Chart.js"
+import RK_method from "../Model/RK_method.js"
+import E_method from "../Model/Euler_method.js"
+import Exact_method from "../Model/Exact_method.js"
+import I_E_method from "../Model/Imp_Euler_method.js"
+import MyChart from "../View/Chart.js"
 
 "use strict";
 

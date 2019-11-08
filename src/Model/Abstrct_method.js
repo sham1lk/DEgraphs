@@ -1,4 +1,4 @@
-import MyChart from "./Chart.js"
+import MyChart from "../View/Chart.js"
 export default class Abstract_method {
     constructor(x0, y0, x, n) {
         this.x = x;
