@@ -20,6 +20,7 @@
     "webpack": "^4.41.2"
   },
   "devDependencies": {
+    "arkit": "^1.6.2",
     "webpack-cli": "^3.3.10"
   }
 }

@@ -16,6 +16,7 @@ $("#renderBtn").click(
         myChart1.createChart();
         myChart2.createChart();
         let x0 = document.getElementById("txt1").value;
+        if(x0>0){
         let y0 = document.getElementById("txt2").value;
         let x = document.getElementById("txt3").value;
         let h = document.getElementById("txt4").value;
@@ -44,6 +45,9 @@ $("#renderBtn").click(
         }
         let exact_method = new Exact_method(x0, y0, x, h);
         exact_method.draw(myChart.chart);
+        }
+        else
+            alert("x0 must be > 0");
 
     }
 );

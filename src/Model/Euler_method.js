@@ -9,6 +9,8 @@ export default class E_method extends Abstract_method {
         for (let i = 1; i <= this.n; i++) {
 
             this.X[i] = (Number(this.X[i - 1]) + Number(h));
+            if(this.X[i]==0)
+                this.X[i]=0.001;
             this.Y[i] = Number(this.Y[i - 1]) + Number(h) * Number(super.myfunction(this.X[i - 1], this.Y[i - 1]));
 
         }

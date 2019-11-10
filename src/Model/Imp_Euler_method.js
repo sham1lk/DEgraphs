@@ -10,6 +10,8 @@ export default class I_E_method extends Abstract_method {
         let h = (this.x - this.X[0]) / this.n;
         for (let i = 1; i <= this.n; i++) {
             this.X[i] = (Number(this.X[i - 1]) + Number(h));
+            if(this.X[i]==0)
+                this.X[i]=0.001;
             let m1 = super.myfunction(this.X[i-1], this.Y[i - 1]);
             let m2 = super.myfunction(this.X[i],this.Y[i-1]+m1*h);
             this.Y[i] = (Number(this.Y[i - 1]) + (m2+m1)/2 * h);

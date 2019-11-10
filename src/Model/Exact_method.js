@@ -7,6 +7,8 @@ export default class Exact_method extends Abstract_method {
         let h = (this.x - this.X[0]) / this.n;
         for (let i = 1; i <= this.n; i++) {
             this.X[i] = (Number(this.X[i - 1]) + Number(h)).toFixed(3);
+            if(this.X[i]==0)
+                this.X[i]=0.001;
             this.Y[i] = super.solution(Number(this.X[i]), this.X[0], this.Y[0]);
             console.log(this.Y);
         }

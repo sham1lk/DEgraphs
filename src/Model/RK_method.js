@@ -13,6 +13,8 @@ export default class RK_method extends Abstract_method {
             let k3 = h * super.myfunction(Number(this.X[i - 1]) + Number(0.5 * h), Number(this.Y[i - 1]) + Number(0.5 * k2));
             let k4 = h * super.myfunction(Number(this.X[i - 1]) + Number(h), Number(this.Y[i - 1]) + k3);
             this.Y[i] = Number(this.Y[i - 1]) + (k1 + 2 * k2 + 2 * k3 + k4)/6;
+            if(this.X[i]==0)
+                this.X[i]=0.001;
             this.X[i] = (Number(this.X[i - 1]) + Number(h));
         }
 
