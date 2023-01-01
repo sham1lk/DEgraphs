@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/sham1lk/DEgraphs#readme",
   "dependencies": {
-    "webpack": "^4.41.2"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "arkit": "^1.6.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^5.0.1"
   }
 }
